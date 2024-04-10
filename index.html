@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ice Cream | Home</title>
+    <meta name="description" content="A Catalog of Ice Cream">
+    <link rel="stylesheet" href="style.css" />
+<!--    font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="scripts.js"></script>
+
+<!--    more fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+
+<header class="main-header">
+    <img src="https://www.icecream.com/content/dam/dreyersgrandicecreaminc/us/en/icecream-com/background-design/Nav-Logo.png" alt="logo">
+    <div class="dropdown">
+        <button class="ddbutton">FLAVORS</button>
+        <div class="flavorFilters">
+            <button onclick="getAllFlavors()">All Flavors</button>
+            <button onclick="getGlutenFree()">Gluten Free</button>
+            <button onclick="getNonDairy()">Dairy Free</button>
+            <button onclick="getNoSugarAdded()">Less Sugar</button>
+            <button onclick="getHalfFat()">Less Fat</button>
+            <button onclick="getNonGMO()">Non-GMO</button>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="ddbutton">SORT BY</button>
+        <div class="flavorFilters">
+            <button onclick="alphaSort()">A-Z</button>
+            <button onclick="rankSort()">Ranking</button>
+        </div>
+    </div>
+
+    <div class="search-container">
+        <form>
+            <input type="text" placeholder="Search.." id="search">
+            <button type="button" onclick="search1()"><img src="https://static.vecteezy.com/system/resources/thumbnails/009/652/218/small/magnifying-glass-icon-isolated-on-white-background-search-illustration-vector.jpg"></button>
+        </form>
+    </div>
+
+</header>
+
+<div class="mainImage">
+<!--    <img src="https://www.icecream.com/content/dam/dreyersgrandicecreaminc/us/en/dreyer%27s/lifestyle-photography/evergreen/Classics-three-cones-scoop.jpg">-->
+    <div class="center">CLASSIC COLLECTION</div>
+</div>
+
+<div id="card-container">
+</div>
+<div class="card" style="display: none;">
+    <div class="card-inner">
+        <div class="card-content">
+            <img src="" alt="TV Show Poster">
+            <h2>Ice Cream Flavor</h2>
+        </div>
+        <div class="card-content-back">
+            <h1>Ice Cream Flavor</h1>
+            <p>Description</p>
+            <h2>Allergens</h2>
+            <h2 id="ranking">Ranking</h2>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <img src="https://sdk.bitmoji.com/render/panel/10155287-200501316_22-s5-v1.png?transparent=1&palette=1&scale=2">
+    <h1>"WITHOUT ICE CREAM, THERE WOULD BE DARKNESS AND CHAOS."</h1>
+    <h2>-Don Kardong</h2>
+</div>
+</body>
+
+</html>
