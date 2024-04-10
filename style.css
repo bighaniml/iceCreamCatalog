@@ -206,7 +206,7 @@ body {
 }
 
 .search-container {
-    margin-left: 50vw;
+    margin-left: 40vw;
 }
 
 input[type=text] {
@@ -225,7 +225,7 @@ input[type=text] {
 }
 
 .search-container button img{
-    width: 1.5vw;
+    width: 2vw;
     height: auto;
     border: none !important;
 }
