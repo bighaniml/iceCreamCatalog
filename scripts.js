@@ -136,7 +136,7 @@ let iceCream = [
         "allergens": ["egg", "milk", "soy", "wheat"],
         "imageUrl": "https://www.icecream.com/content/dam/dreyersgrandicecreaminc/us/en/dreyer%27s/products/rocky-road/Dreyers_RRC_48oz_TripleChocolateFudge.png",
         "ranking": 6,
-        "Description": "A fan favorite re-imagined: our beloved Double Fudge Brownie now with crispy brownie edge! A delicious pairing of brownie pieces and brownie batter swirls is now complete with extra indulgence for the ultimate brownie love"
+        "Description": "A fan favorite re-imagined: our beloved Double Fudge Brownie now with crispy brownie edge! A delicious pairing of brownie pieces and brownie batter swirls is now complete with extra indulgence for the ultimate brownie lover."
     },
     {
         "flavor": "Fudge Tracks",
