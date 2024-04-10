@@ -127,7 +127,7 @@ let iceCream = [
         "tags": [],
         "allergens": ["milk", "almonds"],
         "imageUrl": "https://www.icecream.com/content/dam/dreyersgrandicecreaminc/us/en/dreyer%27s/products/rocky-road/Dreyers_RRC_48oz_OrigRockyRd.png",
-        "ranking": 12,
+        "ranking": 11,
         "Description": "Nothing beats The Original. Our founders created this classic almost 100 years ago and we continue honor it with every scoop! We start with our classic chocolate ice cream, and fold in crunchy almonds and bite size chewy marshmallows for the perfect scoop every time."
     },
     {
